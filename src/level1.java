@@ -107,12 +107,6 @@ public class level1 {
             System.out.println(b1 + " is the less than " +b2);
         }
 
-        //Task-04 Voting Eligibility
-        int age = 17;
-        if(age>=18){
-            System.out.println("Your age is : " +age+ " so you can vote ");
-        } else{
-            System.out.println("Your age is : " +age+ " so you cannot be vote ");
-        }
+
     }
 }
