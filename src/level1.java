@@ -1,5 +1,6 @@
-public class Teacher {
+public class level1 {
     static void main(String[] args) {
+        // ................20-01-2026...............
         //Data Types
         int a = 10;
         double b = 20.10;
@@ -74,6 +75,44 @@ public class Teacher {
             default:
             System.out.println("Invalid Day");
 
+        }
+
+        //.............21-1-2026..............
+
+        //Task-01 Even or Odd
+        int a1 = 20;
+        if(a1%2==0){
+            System.out.println(a1 + " is the Even number ");
+        } else{
+            System.out.println(a1+ " is the Odd number ");
+        }
+
+        //Task-02 Positive, Negative or Zero
+        int a2 = 10;
+        if(a2>=0){
+            System.out.println( a2+ " is the positive number ");
+        } else if(a2<0){
+            System.out.println(a2+ " is the negative number ");
+        }else{
+            System.out.println(a2+ " is the equal to 0 ");
+        }
+
+        //Task-03 Largest of Two Numbers
+        int b1 = 10, b2 = 20;
+        if(b1<b2){
+            System.out.println(b2 + " is the greater than " +b1);
+        } else if(b1==b2){
+           System.out.println(b1 + " and " +b2+ " is both are equal ");
+        } else{
+            System.out.println(b1 + " is the less than " +b2);
+        }
+
+        //Task-04 Voting Eligibility
+        int age = 17;
+        if(age>=18){
+            System.out.println("Your age is : " +age+ " so you can vote ");
+        } else{
+            System.out.println("Your age is : " +age+ " so you cannot be vote ");
         }
     }
 }
