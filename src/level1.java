@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class level1 {
     static void main(String[] args) {
+
         // ................20-01-2026...............
         //Data Types
         int a = 10;
@@ -114,7 +117,6 @@ public class level1 {
         } else{
             System.out.println("Your age is : " +age+ " so you cannot be vote ");
         }
-
 
     }
 }
